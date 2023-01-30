@@ -1,0 +1,259 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    height: 1500px;
+}
+
+h6 {
+    bottom: 150px;
+    left: 90px;
+}
+
+p {
+    bottom: 90px;
+    left: 90px;
+}
+
+.nav-main {
+    height: 81px;
+    line-height: 28px;
+    top: 0;
+    color: rgb(153, 153, 153);
+}
+
+.nav-2 {
+    width: 1120px;
+    height: 81px;
+    padding-top: 21px;
+}
+
+.logo {
+    width: 155px;
+    height: 32px;
+    line-height: 28px;
+    margin-right: 86px;
+    box-sizing: border-box;
+}
+
+.logoimg {
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    margin-top: -14px;
+
+}
+
+#logo {
+    width: 155px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.nav-3 {
+    width: 878.05px;
+    height: 60px;
+    line-height: 20px;
+    z-index: 1;
+}
+
+.menu {
+    padding-left: 35px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.hassub {
+    padding: 0 25px;
+    height: 28px;
+    line-height: 28px;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.sublink {
+    text-decoration-line: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.sublink:hover {
+    color: rgb(0, 44, 95);
+}
+
+.util {
+    list-style-type: none;
+    width: 181px;
+    height: 60px;
+    line-height: 28px;
+    padding: 2px 0 0 51px;
+}
+
+.global-link {
+    width: 25px;
+    height: 25px;
+    background-image: url("../images/btn_topmenu_language-wh.webp");
+    display: block;
+    line-height: 26px;
+    text-align: center;
+    text-decoration-line: none;
+    position: relative;
+    background-size: contain;
+}
+
+.global-link:hover {
+    background-image: url("../images/2btn_topmenu_language-bl.png");
+}
+
+.global {
+    list-style-type: none;
+    width: 25px;
+    height: 25px;
+}
+
+.channel {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.channel-link {
+    width: 25px;
+    height: 25px;
+    background-image: url("../images/btn_topmenu_Channelh-wh.webp");
+    display: block;
+    line-height: 26px;
+    text-align: center;
+    text-decoration-line: none;
+    position: relative;
+    background-size: contain;
+}
+
+.channel-link:hover {
+    background-image: url("../images/2btn_topmenu_Channelh-bl.png");
+}
+
+.lang-link {
+    display: block;
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    height: 25px;
+    line-height: 26px;
+    text-decoration: none;
+    color: white;
+}
+
+.lang-link:hover {
+    color: #002c5f;
+}
+
+.search-link {
+    width: 25px;
+    height: 25px;
+    background-image: url("../images/btn_topmenu_search-wh.webp");
+    display: block;
+    line-height: 26px;
+    text-align: center;
+    text-decoration-line: none;
+    position: relative;
+    background-size: contain;
+}
+
+.search-link:hover {
+    background-image: url("../images/2btn_topmenu_search-bl.webp");
+}
+
+.par1 {
+    display: block;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    left: 30px;
+    bottom: 100px;
+    line-height: 18px;
+    transition: all 0.5s ease;
+    opacity: 1;
+}
+.par2 {
+    display: block;
+    font-size: 23px;
+    color: white;
+    position: absolute;
+    left: 30px;
+    bottom: 60px;
+}
+
+.par3 {
+    display: block;
+    font-size: 23px;
+    color: white;
+    left: 30px;
+    bottom: 40px;
+    line-height: 18px;
+}
+.box2{
+    width: 449.667px;
+    height: 899.333px;
+    background-color: rgba(0,44,95,0.6);
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+    z-index: 3;
+}
+.box2:hover{
+    opacity: 1;
+}
+.text3{
+    width: 449.667px;
+    height: 130px;
+    bottom: 30px;
+    transition: all .4s ease 0s;
+    z-index: 2;
+    padding: 0 30px 30px 30px;
+    bottom: 1px;
+}
+.box99{
+    height: 449.667px;
+    width: 899.333px;
+    background-color: rgba(0,44,95,0.6);
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+    z-index: 3;
+}
+.box99:hover{
+    opacity: 1;
+}
+.text4{
+    width: 300px;
+    height: 100px;
+    transition: all .4s ease 0s;
+    z-index: 3;
+    padding: 0 30px 30px 30px;
+    bottom: 1px;
+}
+.par4 {
+    display: block;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    left: 30px;
+    top: 22px;
+    line-height: 18px;
+    transition: all 0.5s ease;
+}
+.par5 {
+    display: block;
+    font-size: 23px;
+    color: white;
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+    top: 40px;
+}
+
